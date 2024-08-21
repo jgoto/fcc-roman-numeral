@@ -10,6 +10,7 @@ const romanNumeralMap = new Map([
     [10, "X"],
     [9, "IX"],
     [5, "V"],
+    [4, "IV"],
     [1, "I"]
 ])
 
@@ -26,6 +27,6 @@ function convertRomanNumeral(num){
     return output;
 }
 
-console.log(convertRomanNumeral(1999));
+console.log(convertRomanNumeral(45));
 
 module.exports = convertRomanNumeral
