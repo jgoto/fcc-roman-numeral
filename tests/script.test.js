@@ -1,10 +1,10 @@
 const convertRomanNumeral = require("../script");
 
 describe("Roman Numeral Conversion TestCases", ()=>{
-    test("M is 1000", ()=>{
+    test("What is 1999", ()=>{
         // call function
-        var m = convertRomanNumeral(3999, 1000)
+        var m = convertRomanNumeral(1999)
         // assertions
-        expect(m).toBe("MMM");
+        expect(m).toBe("MCMXCIX");
     });
 })
