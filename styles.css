@@ -27,19 +27,12 @@ body{
 
 #output{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: 600;
     text-shadow: 1px 1px darkslategrey;
 }
 
-legend{
-    padding: 20px 0;
-}
-
-button{
-    font-size: 0.5em;
-}
-
-input{
-    font-size: 0.5em;
+h1{
+    padding: 10px 0;
+    font-size: 1.4em;
 }
